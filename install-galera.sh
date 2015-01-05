@@ -8,4 +8,4 @@ wget https://launchpadlibrarian.net/170877758/galera-25.3.5-amd64.deb
 
 dpkg -i galera-*.deb
 
-apt-get -f install
+apt-get -y -f install
